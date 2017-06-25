@@ -6,13 +6,22 @@
     line-height: 30px;
     border-style: solid;
     border-width: 2px;
+    border-color: #373737;
     padding: 5px;
     margin-bottom: 10px;
     margin-left: 10px;
     font-size: 20px;
     font-style: italic;
     cursor: pointer;
-    background-color: white;
+    background-color: #F4F4F4;
+    color: #373737;
+
+}
+
+.tab:hover{
+    background-color: #373737;
+    color: #C0B283;
+    border-color: #373737;
 }
 
 .row{
@@ -26,11 +35,21 @@
     border-style: solid;
     border-width: 5px;
     margin-bottom: 5px;
+    border-color: #373737;
 }
 
 .galleryImage{
     width: 150px;
     height: 150px;
+}
+
+.column:hover{
+    background-color: #373737;
+    border-color: #C0B283;
+}
+
+.container{
+    overflow: auto;
 }
 
 #tabs{
@@ -43,7 +62,7 @@
 #background{
     width: 100%;
     height: 100%;
-    background-color: lightcyan;
+    background-color: #F4F4F4;
     position: absolute;
     top: 0;
     left: 0;
@@ -56,6 +75,7 @@
     top: 30px;
     font-size: 20px;
     font-family: 'American Typewriter';
+    color: #C0B283;
 }
 
 #aboutContent{
@@ -63,6 +83,7 @@
     margin: 15% 20%;
     text-indent: 50px;
     font-size: 20px;
+    color: #373737;
 }
 
 #introContent{
@@ -70,9 +91,11 @@
     margin: 15% 20%;
     text-indent: 50px;
     font-size: 20px;
+    color: #373737;
 }
 
 #picTable{
     position: absolute;
     margin: 5% 28%;
+    height: 550px;
 }
