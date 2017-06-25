@@ -4,16 +4,18 @@
     height: 30px;
     text-align: center;
     line-height: 30px;
-    border-style: solid;
+    border-style: none;
     border-width: 2px;
     border-color: #565656;
+    border-radius: 3px;
     padding: 5px;
     margin-bottom: 10px;
     margin-left: 10px;
-    font-size: 20px;
-    font-style: italic;
+    font-family: 'American Typewriter';
+    font-size: 16px;
+    font-weight: 300;
     cursor: pointer;
-    background-color: #D7CEC7;
+    background-color: #C09F80;
     color: #565656;
 
 }
@@ -74,9 +76,9 @@
 #title{
     position: absolute;
     text-align: center;
-    width: 100%;
-    top: 30px;
-    font-size: 20px;
+    left: 50px;
+    top: 50px;
+    font-size: 40px;
     font-family: 'American Typewriter';
     color: #C09F80;
 }
@@ -111,4 +113,32 @@
 
 .input{
     margin-top: 5px;
+}
+
+.colors{
+    position: relative;
+    width: 50px;
+    height: 150px;
+}
+
+#colorPalette{
+    position: relative;
+    display: inline-flex;
+    margin: 0 20%;
+}
+
+#color1{
+    background-color: #F7D0CB;
+}
+
+#color2{
+    background-color: #B3E0FF;
+}
+
+#color3{
+    background-color: #C09F80;
+}
+
+#color4{
+    background-color: #F7F7F7;
 }
