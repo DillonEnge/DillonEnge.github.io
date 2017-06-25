@@ -1,0 +1,59 @@
+.tab{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    background-color: white;
+}
+
+#tabs{
+    width: 100%;
+    padding: 2px;
+    margin: 15% 0;
+    position: absolute;
+}
+
+#background{
+    width: 100%;
+    height: 100%;
+    background-color: lightcyan;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#title{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 30px;
+    font-size: 20px;
+    font-family: 'American Typewriter';
+}
+
+#aboutContent{
+    position: relative;
+    margin: 15% 20%;
+    text-indent: 50px;
+    font-size: 20px;
+}
+
+#introContent{
+    position: relative;
+    margin: 15% 20%;
+    text-indent: 50px;
+    font-size: 20px;
+}
+
+
+
+
