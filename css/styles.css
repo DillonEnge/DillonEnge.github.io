@@ -98,3 +98,9 @@
     margin: 5% 28%;
     height: 550px;
 }
+
+#login{
+    position: absolute;
+    text-align: center;
+    margin: 25% 40%;
+}

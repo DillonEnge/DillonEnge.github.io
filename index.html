@@ -1,31 +1,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/styles.css">
-        <script src="js/tabLogic.js"></script>
+        <script src="js/login.js"></script>
     </head>
     <body>
-        <div id="background">
-            <div id="introContent">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Pellentesque ac hendrerit arcu, eu rhoncus risus. 
-                    Aenean pharetra tortor vitae massa tristique, vitae convallis erat semper. 
-                    Phasellus tristique purus ut sem tincidunt, ut tincidunt arcu porta. 
-                    Sed nec orci et orci dictum efficitur sed tempor lacus. Aliquam erat volutpat. 
-                    Vivamus a turpis ut ligula varius rhoncus. 
-                    Sed ultricies nibh purus, id dapibus est dictum sit amet. 
-                    Fusce viverra purus non interdum bibendum. Etiam id mauris nulla. 
-                    Donec eu fringilla eros. Mauris consectetur auctor faucibus. Aenean sem massa, 
-                    pharetra eget facilisis non, fermentum quis eros.
-                </p>
-            </div>
-        </div>
-        <div id="title">kellie shaw</div>
-        <div id="tabs">
-            <div id="About" class="tab" data-ng-disabled="true" onclick="aboutOnClick()">About</div>
-            <div id="Gallery" class="tab" onclick="galleryOnClick()">Gallery</div>
-            <div id="Shop" class="tab" onclick="shopOnClick()">Shop</div>
-            <div id="Contact" class="tab" onclick="contactOnClick()">Contact</div>
+        <div id="background"></div>
+        <div id="login">
+            Password:<br>
+            <input type="password" name="Password" value="" id="input"></input><br>
+            <input type="submit" onclick="login()"></input>
         </div>
     </body>
 </html>
