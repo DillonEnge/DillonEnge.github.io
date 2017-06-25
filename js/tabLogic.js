@@ -1,8 +1,3 @@
-var about = document.getElementsByClassName('aboutContent');
-var gallery = document.getElementById('galleryContent');
-var shop = document.getElementById('shopContent');
-var contact = document.getElementById('contactContent');
-
 function aboutOnClick(){
     console.log('about clicked');
     window.location.href = "about.html";
