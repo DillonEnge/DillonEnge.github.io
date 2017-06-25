@@ -15,6 +15,24 @@
     background-color: white;
 }
 
+.row{
+    position: relative;
+}
+
+.column{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 5px;
+}
+
+.galleryImage{
+    width: 150px;
+    height: 150px;
+}
+
 #tabs{
     width: 100%;
     padding: 2px;
@@ -54,29 +72,7 @@
     font-size: 20px;
 }
 
-.row{
-    position: relative;
-}
-
-.column{
-    position: relative;
-    display: inline-block;
-    padding: 10px;
-    border-style: solid;
-    border-width: 5px;
-    margin-bottom: 5px;
-}
-
 #picTable{
     position: absolute;
     margin: 5% 28%;
 }
-
-.galleryImage{
-    width: 150px;
-    height: 150px;
-}
-
-
-
-
