@@ -51,6 +51,10 @@
     overflow: auto;
 }
 
+.input{
+    margin-top: 5px;
+}
+
 #tabs{
     width: 100%;
     padding: 2px;
