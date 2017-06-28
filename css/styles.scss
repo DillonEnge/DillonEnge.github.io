@@ -49,8 +49,8 @@
 }
 
 .galleryImage{
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
 }
 
 .column:hover{
@@ -67,7 +67,12 @@
 }
 
 .doubleInput{
-    width: 500px;
+    width: 400px;
+    height: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    text-indent: 2px;
 }
 
 #tabs{
@@ -114,15 +119,17 @@
 
 #picTable{
     position: absolute;
-    margin: 5% 28%;
-    height: 550px;
+    margin: 2% 28%;
+    padding: 5px;
+    height: 90%;
+    width: 915px;
 }
 
 #login{
     position: absolute;
     text-align: center;
     margin: 20% 43%;
-    color: var(--color1);
+    color: var(--color2);
 }
 
 #submitButton{
@@ -138,7 +145,7 @@
 
 #colorPalette{
     position: relative;
-    display: inline-flex;
+    display: none;
     margin: 0 20%;
 }
 
@@ -165,13 +172,8 @@
 #contactForm{
     position: absolute;
     top: 20%;
-    left: 35%;
-}
-
-#description{
-    width: 500px;
-    height: 300px;
-    padding-top: -300px;
+    left: 37%;
+    font-family: 'American Typewriter';
 }
 
 #introMessage{
@@ -186,8 +188,8 @@
     border-style: none;
     border-width: 2px;
     border-radius: 50%;
-    top: 25%;
-    left: 30%;
+    top: 20%;
+    left: 25%;
     width: 800px;
     height: 300px;
     background-color: var(--color1);
@@ -195,4 +197,35 @@
 
 #shop{
     pointer-events: none;
+}
+
+#name{
+    border-style: none;
+    background-color: var(--color5);
+}
+
+#email{
+    border-style: none;
+    background-color: var(--color5);
+}
+
+#description{
+    width: 400px;
+    height: 300px;
+    padding-top: -280px;
+    border-style: none;
+    background-color: var(--color5);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    text-indent: 2px;
+}
+
+#input{
+    border-style: none;
+    background-color: var(--color5);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    text-indent: 2px;
 }
