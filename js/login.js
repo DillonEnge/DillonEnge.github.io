@@ -6,3 +6,9 @@ function login(){
         document.getElementById('input').value = '';
     }
 }
+
+function enter(){
+    if (event.keyCode == 13){
+        document.getElementById('submitButton').click();
+    }
+}

@@ -1,3 +1,11 @@
+:root{
+    --color1: #8F9491;
+    --color2: #BCA3AC;
+    --color3: #E5CEDC;
+    --color4: #F2F3F4;
+    --color5: #EADDE1;
+}
+
 .tab{
     position: relative;
     width: 150px;
@@ -6,7 +14,6 @@
     line-height: 30px;
     border-style: none;
     border-width: 2px;
-    border-color: #f7d0cb;
     border-radius: 3px;
     padding: 5px;
     margin-bottom: 10px;
@@ -15,15 +22,15 @@
     font-size: 16px;
     font-weight: 300;
     cursor: pointer;
-    background-color: #f7d0cb;
-    color: #565656;
-
+    background-color: var(--color5);
+    color: var(--color2);
+    border-color: var(--color5);
 }
 
 .tab:hover{
-    background-color: #B3E0FF;
-    color: white;
-    border-color: #565656;
+    background-color: var(--color1);
+    color: var(--color4);
+    border-color: var(--color1);
 }
 
 .row{
@@ -37,8 +44,8 @@
     border-style: solid;
     border-width: 5px;
     margin-bottom: 5px;
-    border-color: #B3E0FF;
-    background-color: #B3E0FF;
+    border-color: var(--color5);
+    background-color: var(--color5);
 }
 
 .galleryImage{
@@ -47,8 +54,8 @@
 }
 
 .column:hover{
-    background-color: #f7d0cb;
-    border-color: #f7d0cb;
+    background-color: var(--color1);
+    border-color: var(--color1);
 }
 
 .container{
@@ -69,7 +76,7 @@
 #background{
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: var(--color4);
     position: absolute;
     top: 0;
     left: 0;
@@ -82,7 +89,7 @@
     top: 50px;
     font-size: 40px;
     font-family: 'American Typewriter';
-    color: #565656;
+    color: var(--color2);
 }
 
 #aboutContent{
@@ -90,7 +97,7 @@
     margin: 15% 20%;
     text-indent: 50px;
     font-size: 20px;
-    color: #565656;
+    color: var(--color2);
 }
 
 #introContent{
@@ -98,7 +105,7 @@
     margin: 15% 20%;
     text-indent: 50px;
     font-size: 20px;
-    color: #565656;
+    color: var(--color2);
 }
 
 #picTable{
@@ -111,10 +118,12 @@
     position: absolute;
     text-align: center;
     margin: 20% 43%;
+    color: var(--color1);
 }
 
-.input{
-    margin-top: 5px;
+#submitButton{
+    color: var(--color1);
+    display: none;
 }
 
 .colors{
@@ -130,17 +139,21 @@
 }
 
 #color1{
-    background-color: #f7d0cb;
+    background-color: var(--color1);
 }
 
 #color2{
-    background-color: #B3E0FF;
+    background-color: var(--color2);
 }
 
 #color3{
-    background-color: white;
+    background-color: var(--color3);
 }
 
 #color4{
-    background-color: #565656;
+    background-color: var(--color4);
+}
+
+#color5{
+    background-color: var(--color5);
 }

@@ -7,14 +7,16 @@
         <div id="background"></div>
         <div id="login">
             Password:<br class="input">
-            <input type="password" name="Password" placeholder="Enter Password..." id="input" class="input"></input><br>
-            <input type="submit" onclick="login()" class="input"></input>
+            <input type="password" name="Password" placeholder="Enter Password..." id="input" 
+            class="input" onkeydown = "enter()"></input><br>
+            <input type="submit" id="submitButton" onclick="login()" class="input"></input>
         </div>
         <div id="colorPalette">
             <div id="color1" class="colors"></div>
             <div id="color2" class="colors"></div>
             <div id="color3" class="colors"></div>
             <div id="color4" class="colors"></div>
+            <div id="color5" class="colors"></div>
         </div>
     </body>
 </html>
