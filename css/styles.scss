@@ -1,9 +1,9 @@
 :root{
-    --color1: #BDCEAD;
-    --color2: #CEAEBD;
-    --color3: #E5CEDC;
-    --color4: #F2F3F4;
-    --color5: #EADDE1;
+    --color1: #AC8F57;
+    --color2: #2A334F;
+    --color3: #BB1515;
+    --color4: #E0CDA7;
+    --color5: #6B4423;
 }
 
 .tab{
@@ -23,7 +23,7 @@
     font-weight: 300;
     cursor: pointer;
     background-color: var(--color5);
-    color: var(--color2);
+    color: var(--color4);
     border-color: var(--color5);
 }
 
@@ -31,6 +31,7 @@
     background-color: var(--color1);
     color: var(--color4);
     border-color: var(--color1);
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 }
 
 .row{
@@ -43,14 +44,28 @@
     padding: 10px;
     border-style: solid;
     border-width: 5px;
+    border-radius: 5px;
     margin-bottom: 5px;
     border-color: var(--color5);
     background-color: var(--color5);
+    text-align: center;
+    font-family: 'American Typewriter';
+    font-size: 16px;
+    color: var(--color4);
 }
 
 .galleryImage{
     width: 180px;
     height: 180px;
+}
+
+.shopImage{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 15px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: var(--color3);
 }
 
 .column:hover{
@@ -98,7 +113,7 @@
     top: 50px;
     font-size: 40px;
     font-family: 'American Typewriter';
-    color: var(--color2);
+    color: var(--color1);
 }
 
 #aboutContent{
@@ -204,11 +219,13 @@
 #name{
     border-style: none;
     background-color: var(--color5);
+    color: var(--color1);
 }
 
 #email{
     border-style: none;
     background-color: var(--color5);
+    color: var(--color1);
 }
 
 #description{
@@ -217,15 +234,29 @@
     padding-top: -280px;
     border-style: none;
     background-color: var(--color5);
+    color: var(--color1);
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 3px;
     text-indent: 2px;
 }
 
+#description::placeholder{
+    color: var(--color4);
+}
+
+#name::placeholder{
+    color: var(--color4);
+}
+
+#email::placeholder{
+    color: var(--color4);
+}
+
 #input{
     border-style: none;
     background-color: var(--color5);
+    color: var(--color2);
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 3px;
