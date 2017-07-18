@@ -81,6 +81,10 @@
     margin-top: 5px;
 }
 
+.input::placeholder{
+    color: var(--color4);
+}
+
 .doubleInput{
     width: 400px;
     height: 17px;
@@ -261,4 +265,9 @@
     margin-bottom: 5px;
     border-radius: 3px;
     text-indent: 2px;
+}
+
+#updates{
+    color: var(--color2);
+    position: relative;
 }
