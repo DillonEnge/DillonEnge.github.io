@@ -4,23 +4,31 @@
         <script src="js/tabLogic.js"></script>
     </head>
     <body>
-        <div id="background"></div>
-        <div id="title">kellie<br>shaw</div>
-        <div id="tabs">
-            <div id="About" class="tab" data-ng-disabled="true" onclick="aboutOnClick()">About</div>
-            <div id="Gallery" class="tab" onclick="galleryOnClick()">Gallery</div>
-            <div id="Shop" class="tab" onclick="shopOnClick()">Shop</div>
-            <div id="Contact" class="tab" onclick="contactOnClick()">Contact</div>
-        </div>
-        <div id="contactForm">
-            <form>
-                name:<br>
-                <input type="input" name="Name: " class="doubleInput" id="name" placeholder="Please enter your name."></input><br>
-                email:<br>
-                <input type="input" name="Email: " class="doubleInput" id="email" placeholder="Please enter your email address."></input><br>
-                description:<br>
-                <textarea type="input" name="Description: " id="description" placeholder="Please enter a description."></textarea>
-            </form>
+        <div id=background></div>
+        <div id="body-container">
+            <div id="tabs">
+                <div id="About" class="tab" data-ng-disabled="true" onclick="aboutOnClick()">about</div>
+                <div class = "bubble"></div>
+                <div id="Gallery" class="tab" onclick="galleryOnClick()">gallery</div>
+                <div class = "bubble"></div>
+                <div id="Shop" class="tab" onclick="shopOnClick()">shop</div>
+                <div class = "bubble"></div>
+                <div id="Contact" class="tab" onclick="contactOnClick()">contact</div>
+            </div>
+            <div id="h-line"></div>
+            <div id="title">kellie shaw</div>
+            <div id="inner-body-container">
+                <div id="contact-form">
+                    <form>
+                        name:<br>
+                        <input type="input" name="Name: " class="doubleInput" id="name" placeholder="Please enter your name."></input><br>
+                        email:<br>
+                        <input type="input" name="Email: " class="doubleInput" id="email" placeholder="Please enter your email address."></input><br>
+                        description:<br>
+                        <textarea type="input" name="Description: " id="description" placeholder="Please enter a description."></textarea>
+                    </form>
+                </div>
+            </div>
         </div>
     </body>
 </html>
